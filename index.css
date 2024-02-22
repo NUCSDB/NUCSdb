@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.452);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.header-left {
+    height: max-content;
+    width: max-content;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.header-left img {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+.header-left h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header-mid {
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.header-mid input {
+    width: 650px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    border: solid rgb(255, 255, 255) 1.5px;
+    background-color: transparent;
+}
+
+.header-mid button {
+    height: 40px;
+    width: 40px;
+    border: solid rgba(0, 0, 0, 0) 1.5px;
+    background-color: transparent;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.header-mid button img {
+    height: inherit;
+    width: inherit;
+}
+
+.header-right {
+    margin-left: auto;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+
+.main-banner {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.main-banner img {
+    height: inherit;
+    width: inherit;
+    background-color: #364de300;
+}
+
+
+.w3-center {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.w3-button {
+    padding: 10px;
+    border: solid rgb(0, 0, 0) 2px;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+}
+
+.w3-content {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mySlides {
+    display: none;
+    width: inherit;
+    height: inherit;
+    background-color: rgba(255, 235, 205, 0);
+}
+
+.mySlides-sub {
+    width: inherit;
+    height: inherit;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+}
+
+
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+/*******************************************************************/
+
